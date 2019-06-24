@@ -1,0 +1,10 @@
+
+
+
+### Java template
+*.class
+target/
+.settings/
+.project
+.classpath
+.factorypath

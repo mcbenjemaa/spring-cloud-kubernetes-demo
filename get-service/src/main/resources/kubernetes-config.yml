@@ -1,0 +1,10 @@
+#  to create the configMap
+# kubectl create cm get-service --from-file=application.yml=src/main/resources/kubernetes-config.yml
+
+spring:
+  application:
+    name: '@project.name@'
+
+  
+get-service:
+   profile: ${spring.profiles.active}

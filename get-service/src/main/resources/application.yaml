@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: '@project.name@'  profiles:    active: dev
+get-service:
+   profile: ${spring.profiles.active}
