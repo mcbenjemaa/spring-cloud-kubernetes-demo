@@ -2,6 +2,7 @@
 
 
 ### Java template
+.DS_Store
 *.class
 target/
 .settings/
