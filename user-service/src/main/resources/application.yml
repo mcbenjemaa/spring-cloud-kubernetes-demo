@@ -3,7 +3,7 @@ spring:
     name: '@project.name@'  profiles:    active: dev
 
 server:
-  port: 8000
+  port: 8080
   
 user-service:
    name: Medchiheb

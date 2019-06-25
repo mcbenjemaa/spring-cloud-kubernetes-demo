@@ -1,3 +1,4 @@
+# kubectl create cm user-config --from-literal=user.name=Medchiheb
 apiVersion: v1
 data:
   user.name: Medchiheb

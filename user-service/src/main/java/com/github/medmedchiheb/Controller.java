@@ -1,5 +1,8 @@
 package com.github.medmedchiheb;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -23,6 +26,10 @@ public class Controller {
 		return userName;
 	}
 	
+	@GetMapping("/host")
+	public String host() throws UnknownHostException {
+		return InetAddress.getLocalHost().getHostName();
+	}
 	
 	
 }

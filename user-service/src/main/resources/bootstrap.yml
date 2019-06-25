@@ -7,5 +7,5 @@ spring:
         name: '@project.name@'
 
 
-server:
-  port: 8080
+# server:
+#  port: 8080
